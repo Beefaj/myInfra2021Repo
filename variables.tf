@@ -39,7 +39,7 @@ variable "acl" {
 variable "bucket_prefix" {
     type        = string
     description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
-    default     = "my-fajol-tf-state-bucket"
+    default     = "my-fajol-tf-state-bucket2"
 }
 variable "tags" {
     type        = map
